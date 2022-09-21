@@ -1,0 +1,86 @@
+
+/********** Base styles **********/
+h1 {
+    margin-bottom: 15px;
+    text-align: center;
+    font-family: "papyrus", papyrus, sans-serif; font-weight: bold;
+  }
+
+
+  body {background-color: rgb(255, 255, 255);
+        }
+  p.tittle {
+    border: 1px solid rgb(0, 0, 0);
+    background-color: rgb(220, 119, 119);
+    font-size: 120%;
+    float:right;
+    margin: 0;
+  }
+  p{ padding: 10px;font-family: "papyrus", papyrus, sans-serif; font-weight: bold;}
+  #p1    {
+    background-color: #8b8b8b;
+    width: 32%;
+    float:left;
+    margin: 5px;
+  }
+  #p2 {
+    background-color: #717171;
+    width: 32%;
+    float:left;
+    margin: 5px;
+  }
+  
+  #p3 {
+    background-color: #565656;
+    width: 32%;
+    float:left;
+    margin: 5px;
+}
+
+  
+  
+  /********** Medium devices only **********/
+  @media (min-width: 768px) and (max-width: 991px) {
+    * {box-sizing: border-box;}
+    #p1 {
+        background-color: #8b8b8b;
+        width: 48%;
+        float: left;
+        margin: 5px;
+      }
+      #p2 {
+        background-color: #717171;
+        width: 48%;
+        float: left;
+        margin: 5px;
+      }
+      
+      #p3 {
+        background-color: #565656;
+        width: 97.5%;
+        float: left;
+        margin: 5px;
+    }
+  
+  }
+  
+  /********** Small devices only **********/
+  @media (max-width: 767px) {
+    * {box-sizing: border-box;}
+    #p1 {
+        background-color: #8b8b8b;
+        width: 100%;
+        float: left;
+      }
+      #p2 {
+        background-color: #717171;
+        width: 100%;
+        float: left;
+      }
+      
+      #p3 {
+        background-color: #565656;
+        width: 100%;
+        float: left;
+    }
+  }
