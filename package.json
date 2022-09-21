@@ -1,0 +1,25 @@
+{
+  "dependencies": {
+    "bootstrap": "^5.2.0",
+    "jquery": "^3.6.1"
+  },
+  "name": "jseguram",
+  "version": "1.0.0",
+  "description": "proyecto 1",
+  "main": "index.html",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jorgesemar/primer-proyecto.git"
+  },
+  "keywords": [],
+  "author": "Jorge Segura",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jorgesemar/primer-proyecto/issues"
+  },
+  "homepage": "https://github.com/Jorgesemar/primer-proyecto#readme"
+}
